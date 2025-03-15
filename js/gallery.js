@@ -95,14 +95,11 @@ gallery.addEventListener("click", (event) => {
 const instance = basicLightbox.create(`
     <img src = "${largeImageURL}" width = "1112" height = "640">
     `);
-instance.show();
+    instance.show();
+     });
     
-document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-        instance.close();
-    }
-});
-    });
+
+   
 
 
       
